@@ -57,7 +57,7 @@ public final class FloatImage {
      * @param format   Формат, в котором будет сохранено изображение.
      * @throws IOException Если не удалось записать изображение.
      */
-    @Override
+    //@Override
     public void save(String filename, String format) throws IOException {
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         for (int i = 0; i < height; ++i) {
